@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(226, 219, 219);
+
+    /*background-color: black;*/
+
+}
+
+header {
+    font-family: 'Raleway', sans-serif Medium;
+    text-align: center;
+    background-color: black;
+    
+
+}
+
+body {
+    font-family: 'Pangolin', cursive light;
+
+}
+
+.seccion {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.seccion11 {
+    padding: 50px;
+    background: rgb(41, 40, 40);
+
+}
+
+.seccion2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+p {
+    display: flex;
+    flex: wrap;
+}
+
+.texto1 {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    text-align: left;
+    padding: 70px;
+    background-color: black;
+
+}
+
+.imagen {
+    width: 100%;
+    padding: 50px;
+    margin: 1px;
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    list-style-type: none;
+
+    color: rgb(123, 23, 23);
+    justify-content: center;
+}
+
+li:hover {
+    background-color: rgb(183, 119, 119);
+    color: black;
+
+}
+
+li:active {
+    color: blue;
+}
+
+li {
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.pie {
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+
+}
+
+.bay {
+    color: white;
+    background-color: rgb(41, 40, 40);
+
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
